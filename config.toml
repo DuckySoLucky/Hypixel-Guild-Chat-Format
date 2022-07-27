@@ -1,0 +1,77 @@
+
+[officer_chat]
+
+	[officer_chat.general]
+		bot_name = "FemboysBot"
+		officer_chat_format = true
+
+	[officer_chat."§fdiscord_message_format"]
+		chat_format = true
+		replacement_color = 15
+
+	[officer_chat."§fdiscord_message_split"]
+		replacement = 1
+
+	[officer_chat."§3officer_>"]
+		chat_format = true
+		replacement_color = 2
+		replacement = 3
+
+	[officer_chat."§fdiscord_username_format"]
+		chat_format = true
+		replacement_color = 3
+
+	[officer_chat."§3[rank]"]
+		chat_format = false
+		replacement_color = 3
+		replacement = 0
+
+[command_handler]
+
+	[command_handler.general]
+		command_handler_format = true
+
+[guild_chat]
+
+	[guild_chat.general]
+		bot_name = "FemboysBot"
+		guild_chat_format = true
+
+	[guild_chat."§fdiscord_message_format"]
+		chat_format = true
+		replacement_color = 15
+
+	[guild_chat."§fdiscord_message_split"]
+		replacement = 1
+
+	[guild_chat."§2guild_>"]
+		chat_format = true
+		replacement_color = 2
+		replacement = 1
+
+	[guild_chat."§fdiscord_username_format"]
+		chat_format = true
+		replacement_color = 9
+
+	[guild_chat."§3[rank]"]
+		chat_format = false
+		replacement_color = 3
+		replacement = 0
+
+[event_handler]
+
+	[event_handler.general]
+		event_handler_chat_format = true
+
+	[event_handler."§f[event]"]
+		"[event]_color" = 12
+
+	[event_handler.title]
+		event_title_color = 12
+		event_title = true
+
+	[event_handler."§fevent"]
+		event_arrow_color = 15
+		event_information_color = 15
+		event_time_color = 15
+
